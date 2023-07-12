@@ -24,4 +24,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+    font-family: 'Sedan';
+    letter-spacing: 1.04px;
+    font-weight: normal;
+
+  }
+  @font-face {
+    font-family: 'Sedan';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/vj-rishi/assets/fonts/SedanSC-Regular.ttf');
+  }

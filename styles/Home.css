@@ -1,0 +1,98 @@
+.home{
+    margin-top: 0 !important;
+}
+.highlighted{
+    color: #FFAE00;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+.navbar .socialmedia-logos{
+    display: flex;
+    gap: 16px;
+}
+.home .logo{
+    font-family: 'Sedan';
+    font-size: 32px;
+}
+.home .greeting-container{
+    margin-top: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.greeting-text{
+    font-size: 52px;
+    text-align: center;
+}
+.greeting-ctas{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+.cta{
+    color: #FFAE00;
+    padding: 20px 44px;
+    border: 1px solid #FFAE00;
+    font-size: 28px;
+}
+.cta:hover{
+    background: #FFAE00;
+    color: black;
+    transition: background 0.5s;
+}
+
+.images-marquee{
+    margin-top: 240px;
+}
+.images-marquee img{
+    margin: 12px 12px;
+}
+
+@media screen and (max-width:1225px) {
+    .navbar{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .greeting-text{
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .greeting-text{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:767px) {
+    .greeting-text{
+        font-size: 36px;
+    }
+    .cta{
+        padding: 16px 32px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .navbar{
+        padding-top: 32px;
+    }
+    .navbar .logo{
+        font-size: 24px;
+    }
+    .socialmedia-logos img{
+        width: 24px;
+        height: 24px;
+    }
+    .greeting-text{
+        font-size: 20px;
+    }
+    .cta{
+        padding: 8px 24px;
+        font-size: 18px;
+    }
+}

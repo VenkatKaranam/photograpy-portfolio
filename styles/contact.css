@@ -1,0 +1,25 @@
+
+.contact-heading{
+    text-align: center;
+    font-size: 48px;
+}
+.contact .book-now{
+    display: block;
+    width: fit-content;
+    color: black;
+    font-size: 24px;
+    padding: 16px 40px;
+    background: #FFAE00;
+    margin: 16px auto 0 auto;
+}
+
+.book-now:hover{
+    background: #fabc38;
+}
+@media screen and (max-width:360px) {
+    .contact .book-now{
+        font-size: 18px;
+        padding: 8px 24px;
+        margin: 12px auto 0 auto;
+    }
+}

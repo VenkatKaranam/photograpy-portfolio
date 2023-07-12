@@ -1,0 +1,35 @@
+
+.socialmedia-links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.link{
+    display: block;
+    font-size: 24px;
+    padding: 20px 0;
+    width: 174px;
+    text-align: center;
+    border-radius: 8px;
+    border: 0.5px solid #FFF;
+}
+
+.contact-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    font-size: 24px;
+}
+@media screen and (max-width:360px) {
+    .link{
+        width: 156px;
+        font-size: 20px;
+    }
+    .contact-details{
+        gap: 8px;
+    }
+
+}

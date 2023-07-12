@@ -1,0 +1,74 @@
+
+.teasers-heading{
+    text-align: center;
+    font-size: 48px;
+}
+
+.teasers-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.teaser-thumbnail:hover{
+    opacity: 70%;
+    transition: opacity 0.5s;
+}
+
+.teasers .teaser-thumbnail:hover::after{
+    display: inline-block;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 280px;
+    z-index: 2;
+    content: "";
+    background: url('../assets/images/play-button.png') no-repeat 0 0;
+    width: 56px;
+    height: 56px;
+    background-size: 100%;
+    transition: all 0.5s;
+    background-color: aliceblue;
+}
+
+.thumbnail{
+    width: 600px;
+    height: 335px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1225px) {
+    .teasers-container{
+        gap: 20px;
+    }
+    .thumbnail{
+        width: 470px;
+        height: 240px;
+    }
+    .teasers .teaser-thumbnail:hover::after{
+        margin-top: -150px;
+        margin-left: 220px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .thumbnail{
+        width: 342px;
+        height: 172px;
+    }
+    .teasers .teaser-thumbnail:hover::after{
+        margin-top: -100px;
+        margin-left: 160px;
+    }
+}
+@media screen and (max-width:767px) {
+    .thumbnail{
+        width: 328px;
+        height: 164px;
+    }
+    .teasers .teaser-thumbnail:hover::after{
+        margin-top: -100px;
+        margin-left: 140px;
+    }
+}
