@@ -7,21 +7,20 @@ const GallaryMarquee = () => {
   return (
     <div className="images-marquee">
         <Marquee autoFill='true'>
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
-
+            <Image src={image1} alt='marquee-image'/>
+            <Image src={image1} alt='marquee-image'/>
+            <Image src={image1} alt='marquee-image' />
+            <Image src={image1} alt='marquee-image' />
+            <Image src={image1} alt='marquee-image' />
+            <Image src={image1} alt='marquee-image' />
         </Marquee>
         <Marquee autoFill='true' direction='right'>
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
-            <Image src={image1} />
+            <Image src={image1} alt='marquee-image'/>
+            <Image src={image1} alt='marquee-image'/>
+            <Image src={image1} alt='marquee-image' />
+            <Image src={image1} alt='marquee-image' />
+            <Image src={image1} alt='marquee-image' />
+            <Image src={image1} alt='marquee-image' />
         </Marquee>
     </div>
   )

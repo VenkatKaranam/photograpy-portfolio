@@ -10,8 +10,8 @@ const HomeMain = () => {
         <nav className='navbar'>
             <p className='logo'>VJ RISHI</p>
             <div className='socialmedia-logos'>
-              <a target='_blank' href='https://www.instagram.com/' ><Image src={instagram}/></a>
-              <a target='_blank' href='https://www.facebook.com/' ><Image src={facebook}/></a>
+              <a target='_blank' href='https://www.instagram.com/' ><Image src={instagram} alt='instagram'/></a>
+              <a target='_blank' href='https://www.facebook.com/' ><Image src={facebook} alt='facebook'/></a>
             </div>
         </nav>
         <motion.div className='greeting-container'

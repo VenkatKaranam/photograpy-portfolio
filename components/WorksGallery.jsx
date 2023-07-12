@@ -23,7 +23,7 @@ const WorksGallery = ({tab}) => {
     className="works-gallery">
       <div className="works-grid">{
       images.map((item,key)=>(
-        <Image key={key} src={item} className="works-image"/>
+        <Image key={key} src={item} className="works-image" alt='works'/>
       ))}
       </div>
     </motion.div>

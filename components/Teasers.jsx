@@ -22,7 +22,7 @@ const Teasers = () => {
               )
                 }
               > 
-                <Image src={teaser.thumbnail} className='thumbnail'/>
+                <Image src={teaser.thumbnail} className='thumbnail' alt='thumbnail'/>
               </div>
             ))
           )}

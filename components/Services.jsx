@@ -58,7 +58,7 @@ const childVariant = {
           {services && (
             services.map((item,key)=>(
               <motion.div className='service' key={key} variants={childVariant}>
-              <Image src={item.image}/>
+              <Image src={item.image} alt='services'/>
               <p>{item.name}</p>
             </motion.div>
             ))
