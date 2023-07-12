@@ -1,6 +1,7 @@
 import { worksgallery } from "@/shared/works"
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react"
+import Image from "next/image";
 
 const WorksGallery = ({tab}) => {
   const [isOpen,setIsOpen] = useState(true);
@@ -22,7 +23,7 @@ const WorksGallery = ({tab}) => {
     className="works-gallery">
       <div className="works-grid">{
       images.map((item,key)=>(
-        <img key={key} src={item.src} className="works-image"/>
+        <Image key={key} src={item} className="works-image"/>
       ))}
       </div>
     </motion.div>

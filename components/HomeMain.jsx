@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import instagram from '@/assets/images/socialmedia/instagram.png'
 import facebook from '@/assets/images/socialmedia/facebook.png'
-
+import Image from 'next/image'
 
 const HomeMain = () => {
   return (
@@ -10,8 +10,8 @@ const HomeMain = () => {
         <nav className='navbar'>
             <p className='logo'>VJ RISHI</p>
             <div className='socialmedia-logos'>
-              <a target='_blank' href='https://www.instagram.com/' ><img src={instagram.src}/></a>
-              <a target='_blank' href='https://www.facebook.com/' ><img src={facebook.src}/></a>
+              <a target='_blank' href='https://www.instagram.com/' ><Image src={instagram}/></a>
+              <a target='_blank' href='https://www.facebook.com/' ><Image src={facebook}/></a>
             </div>
         </nav>
         <motion.div className='greeting-container'

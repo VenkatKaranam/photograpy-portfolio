@@ -1,27 +1,27 @@
 import Marquee from "react-fast-marquee"
 import image1 from '@/assets/images/Frame1.png'
+import Image from 'next/image'
+
 
 const GallaryMarquee = () => {
   return (
     <div className="images-marquee">
         <Marquee autoFill='true'>
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
 
         </Marquee>
         <Marquee autoFill='true' direction='right'>
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
-            <img src={image1.src} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
+            <Image src={image1} />
         </Marquee>
     </div>
   )

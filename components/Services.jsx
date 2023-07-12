@@ -1,23 +1,24 @@
 import image1 from '@/assets/images/Frame1.png'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const Services = () => {
   const services = [
     {
       name: 'Wedding Photography',
-      image: image1.src,
+      image: image1,
     },
     {
       name: 'Wedding Photography',
-      image: image1.src,
+      image: image1,
     },
     {
       name: 'Wedding Photography',
-      image: image1.src,
+      image: image1,
     },
     {
       name: 'Wedding Photography',
-      image: image1.src,
+      image: image1,
     }
   ]
 
@@ -57,7 +58,7 @@ const childVariant = {
           {services && (
             services.map((item,key)=>(
               <motion.div className='service' key={key} variants={childVariant}>
-              <img src={item.image}/>
+              <Image src={item.image}/>
               <p>{item.name}</p>
             </motion.div>
             ))

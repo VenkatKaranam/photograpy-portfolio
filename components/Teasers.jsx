@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import baby3 from '@/assets/images/works/baby3.png'
 import { teaserData } from '@/shared/works';
+import Image from 'next/image';
 
 const Teasers = () => {
     const [isOpen, setOpen] = useState(false);
@@ -21,7 +22,7 @@ const Teasers = () => {
               )
                 }
               > 
-                <img src={teaser.thumbnail.src} className='thumbnail'/>
+                <Image src={teaser.thumbnail} className='thumbnail'/>
               </div>
             ))
           )}
