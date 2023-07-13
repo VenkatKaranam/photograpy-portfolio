@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     font-size: 24px;
-    max-width: 732px;
+    /* max-width: 732px; */
     overflow-x: auto;
     margin: auto;
 }
