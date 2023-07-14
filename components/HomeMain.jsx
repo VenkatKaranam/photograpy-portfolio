@@ -23,7 +23,7 @@ const HomeMain = () => {
                     hidden : {opacity : 0, y: 50},
                     visible : {opacity : 1, y: 0},
                 }}>
-          <p className='greeting-text'>Let's make magic together and create
+          <p className='greeting-text'>Let`&apos;`s make magic together and create
           <span className='highlighted'> unforgettable</span> memories</p>
         </motion.div>
         <motion.div className='greeting-ctas'
