@@ -17,13 +17,20 @@
     background-color: white;
 }
 .testimonial-block .review{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
     font-size: 16px;
 }
 .testimonial-block .name{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
     margin-top: 40px;
     font-size: 18px;
 }
 .testimonial-block .designation{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: var(--grey-n-500, #666);
 }

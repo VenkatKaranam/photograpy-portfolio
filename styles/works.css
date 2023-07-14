@@ -1,17 +1,14 @@
 
-
-.works-heading {
-   font-size: 42px;
-   text-align: center;
-}
 .child-nav{
     margin-top: 24px;
     display: flex;
     flex-direction: column;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
     font-size: 24px;
-    /* max-width: 732px; */
+    max-width: 744px;
     overflow-x: auto;
-    margin: auto;
+    margin: 24px auto auto auto;
 }
 .nav-items{
     display: flex;
@@ -22,6 +19,7 @@
 }
 .nav-items button{
     width: max-content;
+    padding: 8px 0;
 }
 .active{
     color: #FFAE00;
@@ -29,42 +27,48 @@
 .line{
     display: block;
     border: 2px solid #FFAE00;
-    width: 120px;
+    width: 135px;
     position: relative;
-    left: 0;
+    left: 0px;
     transition: left 0.5s;
 }
 
 .baby_shoot{
-    left: 0;
+    width: 135px;
+    left: -10px;
     transition: left 0.5s;
 
 }
 .pre_wedding{
-    left: 163px !important;
-    transition: left 0.5s;
+    width: 140px;
+    left: 170px;
+    transition: all 0.5s;
 
 }
 
 .wedding{
-    left: 319px;
-    transition: left 0.5s;
+    width: 100px;
+    left: 354px;
+    transition: all 0.5s;
 
 }
 .engagement{
-    left: 467px;
-    transition: left 0.5s;
+    width: 135px;
+    left: 497px;
+    transition: all 0.5s;
 
 }
 .haldi{
-    left: 599px;
-    transition: left 0.5s;
+    width: 67px;
+    left: 674px;
+    transition: all 0.5s;
 
 }
 
 @media screen and (max-width:360px) {
     .child-nav{
-        max-width: 328px;
+        margin-left: 8px;
+        margin-right: 8px;
         font-size: 16px;
         overflow-x: auto;
     }
@@ -74,24 +78,32 @@
     .line{
         width: 70px;
     }
+    .baby_shoot{
+        width: 83px;
+        left: 0px !important;
+        transition: left 0.5s;
+    }
     .pre_wedding{
-        left: 97px !important;
+        width: 90px;
+        left: 100px !important;
         transition: left 0.5s;
     
     }
-    
     .wedding{
-        left: 185px;
+        width: 70px;
+        left: 200px;
         transition: left 0.5s;
     
     }
     .engagement{
-        left: 267px;
+        width: 100px;
+        left: 279px;
         transition: left 0.5s;
     
     }
     .haldi{
-        left: 349px;
+        width: 50px;
+        left: 379px;
         transition: left 0.5s;
     
     }

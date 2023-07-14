@@ -9,15 +9,15 @@ const Stats = () => {
         },
         {
             name: 'Baby Shoots',
-            value: '70+',
+            value: '45+',
         },
         {
             name: 'Maternity shoots',
-            value: '70+',
+            value: '25+',
         },
         {
             name: 'Birthday Shoots',
-            value: '70+',
+            value: '25+',
         }
     ]
     const container = {

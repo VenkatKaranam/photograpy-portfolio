@@ -23,8 +23,8 @@ const HomeMain = () => {
                     hidden : {opacity : 0, y: 50},
                     visible : {opacity : 1, y: 0},
                 }}>
-          <p className='greeting-text'>LET`&apos;`S MAKE MAGIC TOGETHER AND CREATE
-          <span className='highlighted'> UNFORGETTABLE</span> MEMORIES</p>
+          <p className='greeting-text'>Let's make magic together and create
+          <span className='highlighted'> unforgettable</span> memories</p>
         </motion.div>
         <motion.div className='greeting-ctas'
           initial="hidden"
@@ -35,7 +35,7 @@ const HomeMain = () => {
                hidden : {opacity : 0, y: 50},
                visible : {opacity : 1, y: 0},
            }}>
-            <button className='cta'>Book Now</button>
+            <button className='cta book-cta'>Book Now</button>
             <button className='cta'>Learn More</button>
         </motion.div>
     </section>

@@ -14,7 +14,6 @@
     gap: 16px;
 }
 .home .logo{
-    font-family: 'Sedan';
     font-size: 32px;
 }
 .home .greeting-container{
@@ -25,6 +24,8 @@
     flex-direction: column;
 }
 .greeting-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 52px;
     text-align: center;
 }
@@ -38,12 +39,13 @@
     color: #FFAE00;
     padding: 20px 44px;
     border: 1px solid #FFAE00;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
     font-size: 28px;
 }
-.cta:hover{
+.book-cta{
     background: #FFAE00;
     color: black;
-    transition: background 0.5s;
 }
 
 .images-marquee{

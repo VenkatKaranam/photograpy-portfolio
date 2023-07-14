@@ -1,35 +1,16 @@
 
-.teasers-heading{
-    text-align: center;
-    font-size: 48px;
-}
-
 .teasers-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
+    margin-top: 32px;
 }
 
 
 .teaser-thumbnail:hover{
     opacity: 70%;
     transition: opacity 0.5s;
-}
-
-.teasers .teaser-thumbnail:hover::after{
-    display: inline-block;
-    position: absolute;
-    margin-top: -190px;
-    margin-left: 280px;
-    z-index: 2;
-    content: "";
-    background: url('../assets/images/play-button.png') no-repeat 0 0;
-    width: 56px;
-    height: 56px;
-    background-size: 100%;
-    transition: all 0.5s;
-    background-color: aliceblue;
 }
 
 .thumbnail{

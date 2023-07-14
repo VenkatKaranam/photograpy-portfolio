@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Outfit&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,14 +27,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    font-family: 'Sedan';
-    letter-spacing: 1.04px;
-    font-weight: normal;
-
-  }
-  @font-face {
-    font-family: 'Sedan';
-    font-style: normal;
-    font-weight: normal;
-    src: url('/vj-rishi/assets/fonts/SedanSC-Regular.ttf');
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    letter-spacing: 1.04px ;  
+    line-height: normal;
   }

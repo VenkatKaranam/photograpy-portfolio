@@ -22,7 +22,9 @@ const Teasers = () => {
               )
                 }
               > 
-                <Image src={teaser.thumbnail} className='thumbnail' alt='thumbnail'/>
+                <iframe className='thumbnail'
+                      src={`https://www.youtube.com/embed/${teaser.videoID}?controls=0`}>
+                </iframe>
               </div>
             ))
           )}

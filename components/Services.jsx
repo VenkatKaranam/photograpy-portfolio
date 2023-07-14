@@ -1,4 +1,8 @@
-import image1 from '@/assets/images/Frame1.png'
+import wedding from '@/assets/images/Service/1.png'
+import pre_wedding from '@/assets/images/Service/2.png'
+import fashion from '@/assets/images/Service/3.png'
+import baby from '@/assets/images/Service/4.png'
+
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
@@ -6,19 +10,19 @@ const Services = () => {
   const services = [
     {
       name: 'Wedding Photography',
-      image: image1,
+      image: wedding,
     },
     {
-      name: 'Wedding Photography',
-      image: image1,
+      name: 'Pre-wedding photography',
+      image: pre_wedding,
     },
     {
-      name: 'Wedding Photography',
-      image: image1,
+      name: 'Fashion Photography',
+      image: fashion,
     },
     {
-      name: 'Wedding Photography',
-      image: image1,
+      name: 'Baby Shoot',
+      image: baby,
     }
   ]
 
@@ -45,7 +49,7 @@ const childVariant = {
         }}
         >
         <p className='pre-heading'>
-            Our Services
+            OUR SERVICES
         </p>
         <p className='section-heading'>Where every <span className='highlighted'>picture </span> tells a story</p>
         </motion.div>
