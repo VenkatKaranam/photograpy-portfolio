@@ -1,6 +1,6 @@
 .stats{
     display: flex;
-    gap: 40px;
+    gap: 48px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -14,6 +14,7 @@
     font-weight: 700;
 }
 .stats-text{
+    margin-top: 12px;
     font-family: Outfit, sans-serif;
     font-weight: 400;
     font-size: 36px;

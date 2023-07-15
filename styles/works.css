@@ -3,8 +3,6 @@
     margin-top: 24px;
     display: flex;
     flex-direction: column;
-    font-family: Outfit, sans-serif;
-    font-weight: 400;
     font-size: 24px;
     max-width: 744px;
     overflow-x: auto;
@@ -18,6 +16,8 @@
     overflow-x: auto;
 }
 .nav-items button{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
     width: max-content;
     padding: 8px 0;
 }
@@ -69,6 +69,7 @@
     .child-nav{
         margin-left: 8px;
         margin-right: 8px;
+        margin-top: 12px;
         font-size: 16px;
         overflow-x: auto;
     }

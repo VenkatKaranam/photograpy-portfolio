@@ -1,5 +1,6 @@
 
 .contact-heading{
+    font-style: bold;
     text-align: center;
     font-size: 48px;
 }
@@ -21,7 +22,9 @@
 @media screen and (max-width:360px) {
     .contact .book-now{
         font-size: 18px;
-        padding: 8px 24px;
+        padding: 16px 24px;
+        width: 192px;
+        text-align: center;
         margin: 12px auto 0 auto;
     }
 }

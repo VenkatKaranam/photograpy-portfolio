@@ -30,7 +30,7 @@ const Works = () => {
         <p className='section-heading'>
             Our Latest Work
         </p>
-        <div className='child-nav'>
+        <div className='child-nav no-scrollbar'>
             <div className="nav-items">
             {
                 navItems.map((item,key) => (
