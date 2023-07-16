@@ -3,6 +3,8 @@ import React from 'react'
 import instagram from '@/assets/images/socialmedia/instagram.png'
 import facebook from '@/assets/images/socialmedia/facebook.png'
 import Image from 'next/image'
+import AnchorLink from "react-anchor-link-smooth-scroll"
+
 
 const HomeMain = () => {
   return (
@@ -35,8 +37,8 @@ const HomeMain = () => {
                hidden : {opacity : 0, y: 50},
                visible : {opacity : 1, y: 0},
            }}>
-            <button className='cta book-cta'>Book Now</button>
-            <button className='cta'>Learn More</button>
+            <a target='_blank' href='https://docs.google.com/forms/d/e/1FAIpQLScFKvkrOfUmUwfC2JCifzJrHxPmIU7A1WMrufEuSGJcEfsWPg/viewform' className='cta book-cta'>Book Now</a>
+            <AnchorLink href='#stats' className='cta'>Learn More</AnchorLink>
         </motion.div>
     </section>
   )

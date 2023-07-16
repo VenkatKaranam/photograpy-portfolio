@@ -55,6 +55,15 @@
     margin: 12px 12px;
 }
 
+.intro-name{
+    font-size: 96px;
+}
+
+.intro-tagline{
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+}
 @media screen and (max-width:1225px) {
     .navbar{
         margin-left: 16px;
