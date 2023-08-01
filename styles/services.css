@@ -30,6 +30,8 @@
 .service img{
     width: 288px;
     height: 260px;
+    object-fit: cover;
+
 }
 
 

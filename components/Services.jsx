@@ -1,7 +1,7 @@
-import wedding from '@/assets/images/Service/1.png'
-import pre_wedding from '@/assets/images/Service/2.png'
-import fashion from '@/assets/images/Service/3.png'
-import baby from '@/assets/images/Service/4.png'
+import wedding from '@/assets/images/Service/wedding.jpg'
+import pre_wedding from '@/assets/images/Service/pre-wedding.jpg'
+import fashion from '@/assets/images/Service/Fashion.jpg'
+import baby from '@/assets/images/Service/babyshoot.jpg'
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'

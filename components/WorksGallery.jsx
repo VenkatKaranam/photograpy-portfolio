@@ -2,6 +2,8 @@ import { worksgallery } from "@/shared/works"
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react"
 import Image from "next/image";
+import ModalImage from "react-modal-image";
+
 
 const WorksGallery = ({tab}) => {
   const [isOpen,setIsOpen] = useState(true);
@@ -23,7 +25,7 @@ const WorksGallery = ({tab}) => {
     className="works-gallery">
       <div className="works-grid">{
       images.map((item,key)=>(
-        <Image key={key} src={item} className="works-image" alt='works'/>
+        <ModalImage key={key} small={item.src} large={item.src} className="works-image" alt='works'/>
       ))}
       </div>
     </motion.div>

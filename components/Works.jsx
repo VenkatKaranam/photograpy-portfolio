@@ -4,24 +4,24 @@ import WorksGallery from "./WorksGallery";
 const Works = () => {
     const navItems=[
         {
-            key:'baby_shoot',
-            value: 'Baby Shoot',
+            key:'engagement',
+            value: 'Engagement',
         },
         {
             key:'pre_wedding',
             value: 'Pre-wedding',
         },
         {
+            key:'haldi',
+            value: 'Haldi',
+        },
+        {
             key:'wedding',
             value: 'Wedding',
         },
         {
-            key:'engagement',
-            value: 'Engagement',
-        },
-        {
-            key:'haldi',
-            value: 'Haldi',
+            key:'baby_shoot',
+            value: 'Baby Shoot',
         },
     ]
     const [tab,setTab] = useState(navItems[0].key);

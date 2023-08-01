@@ -33,34 +33,34 @@
     transition: left 0.5s;
 }
 
-.baby_shoot{
-    width: 135px;
+.engagement{
+    width: 144px;
     left: -10px;
     transition: left 0.5s;
 
 }
 .pre_wedding{
     width: 140px;
-    left: 170px;
+    left: 184px;
     transition: all 0.5s;
 
 }
 
-.wedding{
-    width: 100px;
-    left: 354px;
-    transition: all 0.5s;
-
-}
-.engagement{
-    width: 135px;
-    left: 497px;
-    transition: all 0.5s;
-
-}
 .haldi{
     width: 67px;
-    left: 674px;
+    left: 364px;
+    transition: all 0.5s;
+
+}
+.wedding{
+    width: 97px;
+    left: 477px;
+    transition: all 0.5s;
+
+}
+.baby_shoot{
+    width: 127px;
+    left: 620px;
     transition: all 0.5s;
 
 }
@@ -79,32 +79,32 @@
     .line{
         width: 70px;
     }
-    .baby_shoot{
-        width: 83px;
+    .engagement{
+        width: 87px;
         left: 0px !important;
         transition: left 0.5s;
     }
     .pre_wedding{
         width: 90px;
-        left: 100px !important;
-        transition: left 0.5s;
-    
-    }
-    .wedding{
-        width: 70px;
-        left: 200px;
-        transition: left 0.5s;
-    
-    }
-    .engagement{
-        width: 100px;
-        left: 279px;
+        left: 110px !important;
         transition: left 0.5s;
     
     }
     .haldi{
         width: 50px;
-        left: 379px;
+        left: 210px;
+        transition: left 0.5s;
+    
+    }
+    .wedding{
+        width: 65px;
+        left: 269px;
+        transition: left 0.5s;
+    
+    }
+    .baby_shoot{
+        width: 80px;
+        left: 349px;
         transition: left 0.5s;
     
     }

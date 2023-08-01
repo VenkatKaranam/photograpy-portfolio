@@ -10,6 +10,7 @@ import Testimonials from '@/components/Testimonials'
 import Works from '@/components/Works'
 import { useState,useEffect } from 'react'
 
+
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -21,8 +22,9 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
+
   return (
-    <main className="bg-black text-white">
+    <main id="fullpage" className=" bg-black text-white">
       {isLoading ?
       <Intro/>
       :
