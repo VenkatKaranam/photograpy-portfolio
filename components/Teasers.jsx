@@ -10,7 +10,7 @@ const Teasers = () => {
 
   return (
     <React.Fragment>
-        <div className='teasers max-width-container'>
+        <div className=' sectionteasers max-width-container'>
             <p className='section-heading'>Teasers</p>
         <div className='teasers-container'>
           {teaserData && (

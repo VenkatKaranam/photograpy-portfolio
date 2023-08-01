@@ -37,7 +37,7 @@ const childVariant = {
     visible: {opacity:1, scale: 1}
  }
   return (
-    <div className='services max-width-container'>
+    <div className='section services max-width-container'>
         <motion.div 
         className='service-header'
         initial="hidden"

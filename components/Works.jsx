@@ -26,7 +26,7 @@ const Works = () => {
     ]
     const [tab,setTab] = useState(navItems[0].key);
   return (
-    <div id="works" className='works max-width-container'>
+    <div id="works" className='section works max-width-container'>
         <p className='section-heading'>
             Our Latest Work
         </p>

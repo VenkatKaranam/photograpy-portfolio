@@ -1,7 +1,7 @@
 import { testimonialsData } from "@/shared/testimonialsData"
 const Testimonials = () => {
   return (
-    <div className='testimonials max-width-container'>
+    <div className='section testimonials max-width-container'>
         <p className='section-heading'> What our customers say about us </p>
         <div className='testimonials-container'>
             {testimonialsData && (

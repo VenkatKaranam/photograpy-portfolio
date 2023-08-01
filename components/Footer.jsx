@@ -20,7 +20,7 @@ const Footer = () => {
         }
     ]
   return (
-    <div className='footer max-width-container'>
+    <div className='section footer max-width-container'>
         <div className='socialmedia-links'>
             {socialmedia && (
                 socialmedia.map((item,key) =>(

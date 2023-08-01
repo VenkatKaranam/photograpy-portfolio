@@ -19,7 +19,7 @@ import Image from 'next/image'
 
 const GallaryMarquee = () => {
   return (
-    <div className="images-marquee">
+    <div className="section images-marquee">
         <Marquee autoFill='true'>
             <Image src={image1} alt='marquee-image'/>
             <Image src={image2} alt='marquee-image'/>

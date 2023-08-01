@@ -31,7 +31,7 @@ const Stats = () => {
         visible: {opacity:1, scale: 1}
      }
   return (
-    <section className="max-width-container" id="stats">    
+    <section className="section max-width-container" id="stats">    
     <motion.div
     className="stats"
     initial="hidden"

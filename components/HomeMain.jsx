@@ -8,7 +8,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const HomeMain = () => {
   return (
-    <section id='home' className='home max-width-container'>
+    <section id='home' className='section home max-width-container'>
         <nav className='navbar'>
             <p className='logo'>VJ RISHI</p>
             <div className='socialmedia-logos'>
