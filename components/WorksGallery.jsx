@@ -25,7 +25,7 @@ const WorksGallery = ({tab}) => {
     className="works-gallery">
       <div className="works-grid">{
       images.map((item,key)=>(
-        <ModalImage key={key} small={item.src} large={item.src} className="works-image" alt='works'/>
+        <ModalImage key={key} small={item.src} large={item.src} hideDownload={true} className="works-image" alt='works'/>
       ))}
       </div>
     </motion.div>

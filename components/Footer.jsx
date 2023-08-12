@@ -4,19 +4,19 @@ const Footer = () => {
     const socialmedia=[
         {
             name: 'Gmail',
-            link: '',
+            link: 'https://mail.google.com/mail/?view=cm&fs=1&to=aithavijay926@gmail.com',
         },
         {
             name: 'Youtube',
-            link: '',
+            link: 'https://www.youtube.com/@vjrishiphotography3973/videos',
         },
         {
             name: 'Instagram',
-            link: '',
+            link: 'https://www.instagram.com/vj_rishi_photography/',
         },
         {
             name: 'Whatsapp',
-            link: '',
+            link: 'https://api.whatsapp.com/send?phone=7659988244',
         }
     ]
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
         <div className='socialmedia-links'>
             {socialmedia && (
                 socialmedia.map((item,key) =>(
-                    <a href={item.link} key={key} className='link'>{item.name}</a>
+                    <a href={item.link}  target="_blank" key={key} className='link'>{item.name}</a>
                 ))
             )}
         </div>

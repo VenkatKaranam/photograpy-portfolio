@@ -11,7 +11,6 @@ const Testimonials = () => {
                         {item.review}
                     </p>
                     <p className="name">{item.name}</p>
-                    <p className="designation">{item.designation}</p>
                 </div>
                 ))
             )}
